@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Exo|Josefin+Sans&display=swap');
+/*===========NAVIGATION================*/
+body{
+  overflow-x: hidden;
+  font-family: 'Chau Philomene One', sans-serif;
+  color: #505962;
+  /* background-color:black; */
+}
+.offset::before{
+  display:block;
+  content:"";
+  height:4rem;
+  margin-top: -4rem;
+
+}
+.navbar{
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  background-color : rgba(0,0,0,0.4) !important
+}
+.navbar-brand-logo{
+  height:3rem;
+}
+.navbar-brand{
+  padding:15px;
+}
+.navbar-nav li{
+  padding-right:0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:white;
+  padding-top:0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: crimson;
+}
+
+/*===========LANDING PAGE================*/
+.home-inner{
+  background-image: url("../assets/pic5.jpg");
+}
+.caption{
+  width:100%;
+  max-width:100%;
+  position:absolute;
+  top:38%;
+  z-index:1;
+  color: white;
+}
+.caption h1 span{
+  letter-spacing:0.3rem;
+  color: crimson;
+  text-shadow:0.1rem 0.1rem 0.5rem black;
+}
+.caption h1{
+  padding-bottom:1rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-color: darkgray;
+  /* text-transform: uppercase; */
+}
+
+
+.about img{
+  margin-top:2rem;
+  width:100%;
+  height:80%;
+}
+
+.narrow{
+  width:75%;
+  margin:2rem 2rem 2rem 2rem;
+  padding-top:2rem;
+
+}
+
+.narrow h1{
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Amatic SC', cursive; */
+  font-family: 'Exo', sans-serif;
+  /* background-color: lightcoral; */
+  margin-bottom:1.5rem;
+  /* letter-spacing: 0.1rem; */
+}
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+
+
+.jumbotron{ 
+  margin-bottom:0;
+  padding: 2rem 0 3.5rem;
+  border-radius:0;
+
+}
+
+h3.heading{
+  font-size:1.5rem;
+  text-transform: uppercase;
+  /* margin-bottom: 0.5rem; */
+}
+
+.heading-underline{
+  width:5rem;
+  height:0.2rem;
+  background-color: indianred;
+  margin:0 auto 1rem;
+}
+
+.fas , .fab{
+  color:indianred;
+}
+
+
+
+
+/* ================PORTFOLIO================== */
+.fixed{
+  background :url("../assets/AppDeveloperDesk.jpg");
+  z-index:-1;
+}
+.dark{
+  background-color: rgba(0,0,0,0.75);
+  color:white;
+  padding: 7rem 1rem;
+}
+
+.fixed-background h3{
+  margin-bottom: 0.5rem;
+
+}
+
+.fixed-background p{
+  margin-top:1.5rem;
+}
+
+
+/* ===============MY WORKS================ */
+.works img{
+  width:100%;
+  border-radius:50%;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+

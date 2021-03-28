@@ -1,3 +1,3 @@
 # nehanaaz.github.io
 
-My portfolio which shows my skills and works.
+My portfolio website which shows my skills and works.
